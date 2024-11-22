@@ -4,11 +4,12 @@
 }
 
 .top {
-    width: 1280px;
+    width: 1216px;
     height: 144px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding-top: 40px;
 }
 
 .top img {
@@ -67,7 +68,7 @@
 }
 
 .search-m {
-    width: 1280px;
+    width: 1216px;
     height: 144px;
     margin: 0 auto;
 }
