@@ -1,0 +1,176 @@
+/* 头部样式 */
+.header {
+    width: 1024px;
+    height: 80px;
+    margin: 20px auto;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.header img {
+    width: 120px;
+    height: 30px;
+}
+
+.header .menu {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #999;
+    border-radius: 35px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header .menu a {
+    width: 126px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    /* padding: 8px 24px; */
+    border-radius: 30px;
+}
+
+.header .menu a:hover {
+    background-color: #fff;
+}
+
+.header div:last-child {
+    display: flex;
+}
+
+.header div:last-child form {
+    position: relative;
+    width: 125px;
+    height: 48px;
+}
+
+.header div:last-child form i {
+    position: absolute;
+    top: 15px;
+}
+
+.header div:last-child form input {
+    width: 100px;
+    height: 48px;
+    border: 1px solid #999;
+    border-radius: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.header div:last-child form:hover input::placeholder,
+.header div:last-child form:hover i {
+    color: #fff;
+}
+
+.header div:last-child form:hover input {
+    background-color: #000;
+}
+
+.header div:last-child a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border: 5px solid #ccc;
+    border-radius: 50%;
+    color: #000;
+    box-sizing: border-box;
+}
+
+.header div:last-child a:hover {
+    background-color: #000;
+}
+
+.header div:last-child a:hover i {
+    color: #fff;  
+}
+
+/* 底部样式 */
+.footer {
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer img {
+    width: 120px;
+    height: 30px;
+}
+
+.footer div a {
+    display: inline-block;
+    width: 50px;
+    margin: 10px 15px;
+    font-weight: 600;
+}
+
+.footer div:last-child a,
+.footer div:last-child span {
+    margin: 0px;
+    margin-right: 5px;
+    font-size: 14px;
+    color: #64748b;
+    font-weight: 400;
+}
+
+.footer div a:hover {
+    text-decoration: underline;
+}
+
+/* tabble样式 */
+.tabble {
+    display: none;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 260px;
+    background-color: #fff;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.tabble a {
+    width: 20%;
+    height: 40px;
+    /* line-height: 40px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px){
+    .header {
+        width: 100%;
+    }
+
+    .header .menu {
+        display: none;
+    }
+
+    .header div:last-child form {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .tabble {
+        display: flex;
+    }
+}

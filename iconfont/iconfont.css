@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4751141 */
+  src: url('iconfont.woff2?t=1732264530103') format('woff2'),
+       url('iconfont.woff?t=1732264530103') format('woff'),
+       url('iconfont.ttf?t=1732264530103') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-you:before {
+  content: "\e72e";
+}
+
+.icon-zuo:before {
+  content: "\e72f";
+}
+
+.icon-4:before {
+  content: "\e600";
+}
+
+.icon-hulu:before {
+  content: "\e63e";
+}
+
+.icon-ABC:before {
+  content: "\e6cb";
+}
+
+.icon-fox-:before {
+  content: "\e619";
+}
+
+.icon-hbo-:before {
+  content: "\e621";
+}
+
+.icon-nbc:before {
+  content: "\e64d";
+}
+
+.icon-FX:before {
+  content: "\e614";
+}
+
+.icon-netflix:before {
+  content: "\e6e2";
+}
+
+.icon-primevideo:before {
+  content: "\e7d7";
+}
+
+.icon-cbs:before {
+  content: "\e601";
+}
+
+.icon-apple-tv:before {
+  content: "\e912";
+}
+
+.icon-search:before {
+  content: "\e6b9";
+}
+
+.icon-user:before {
+  content: "\e7ae";
+}
+
+.icon-add:before {
+  content: "\e613";
+}
+
+.icon-home:before {
+  content: "\e661";
+}
+
+.icon-tv:before {
+  content: "\e74e";
+}
+
+.icon-movies:before {
+  content: "\e630";
+}
+

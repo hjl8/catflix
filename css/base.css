@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    user-select: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input {
+    border: 1px solid #000;
+    outline: none;
+}
+
+i {
+    display: inline-block;
+    /* width: 20px;
+    height: 20px; */
+    vertical-align: middle;
+    font-size: 20px !important;
+    text-align: center;
+}
+
+.w {
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .w {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .w {
+        width: 100%;
+    }
+}
