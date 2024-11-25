@@ -1,0 +1,447 @@
+.top {
+    width: 1280px;
+    height: 65px;
+    margin: 46px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (max-width:1280px) {
+    .top {
+      width: 100%;
+    }
+  }
+
+  *{
+    margin: 0;
+   padding: 0;
+    }
+  
+  .top-l {
+    width: 132px;
+    height: 65px;
+    line-height: 65px;
+    font-size: 50px;
+  }
+  .top-l .lan {
+    color: blue;
+  }
+  .zhong {
+    width: 440px;
+    height: 66px;
+    background-color: yellow; 
+  }
+ .zhong .p1 .home {
+  margin-top: -30px;
+  margin-left: 10px;
+
+ }
+ .zhong .p1 img {
+  margin-right: 70px;
+ }
+ .zhong .p2 .movies1 {
+  margin-top: -30px;
+  margin-left: 40px;
+
+ }
+ .zhong .p3 .series {
+  margin-top: -30px;
+  margin-left: 55px;
+
+ }
+ 
+ 
+
+.zhong a {
+  text-decoration: none;
+  color: black;
+}
+  .zhong input {
+    width: 430px;
+    height: 60px;
+    border-radius: 58px;
+  }
+  .top-r {
+    width: 206px;
+    height: 63px;
+  }
+  .top-r input {
+    width: 135px;
+    height: 63px;
+    font-size: 30px;
+    border-radius: 58px;
+  }
+  .bottom-xia {
+    width: 1280px;
+    height: 116px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .bottom-xia p {
+    font-size: 20px;
+  }
+  .bottom-xia span {
+    font: 20px;
+    color: #B4B6CB;
+  }
+  .zhong-picture {
+    width: 1280px;
+    height: 1090px;
+    margin: auto;
+  }
+  @media screen and (max-width:1280px) {
+    .zhong-picture {
+      width: 100%;
+    }
+  }
+  .zhong-picture  .merry {
+    font-size: 20px;
+    width: 278px;
+    height: 320px;
+  }
+  .zhong-picture  .merry p {
+    margin-top: -120px;
+    display: none;
+    line-height: 35px;
+    padding-top: -150px;
+  }
+  .zhong-picture .merry:hover p {
+     color: white;
+     display: block;
+  }
+  .zhong-picture img {
+    width: 278px;
+    height: 320px;
+  }
+  .zhong-picture ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .zhong-picture ul li {
+    list-style:none;
+    margin-bottom: 64px;
+    background-color: #e2e8f0;
+    width: 278px;
+    height: 320px;
+  }
+  .top-l {
+    width: 132px;
+    height: 65px;
+    line-height: 65px;
+    font-size: 50px;
+  }
+  
+  .top-l .lan {
+    color: blue;
+  }
+  
+  .zhong {
+    width: 440px;
+    height: 66px;
+    border: 1px solid #666666;
+    background-color: #DBD6ED;
+    border-radius: 58px;
+    top: 0px;
+    left: 440px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .zhong .p1  {
+    width: 120px;
+    height: 64px;  
+    border-radius: 58px;
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+  }
+  .zhong .p1 img {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+  }
+  .zhong .p1  p {
+    margin-top: 20px;
+  }
+  
+  .zhong .p1:hover {
+    background-color: antiquewhite;
+    border-radius: 48px ;
+  }
+  .zhong .p2 {
+    width: 120px;
+    height: 64px;
+    border-radius: 58px;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .zhong .p2 img {
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .zhong .p2 p {
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+  
+  
+  .zhong .p3 {
+    right: 0px;
+    width: 120px;
+    height: 64px;
+    border-radius: 58px;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .zhong .p2:hover {
+    background-color: antiquewhite;
+  }
+  
+  
+  .zhong .p3 img {
+    left: 30px;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 25px;
+  
+  }
+  .zhong .p3 p {
+    margin-right:15px ;
+    margin-top: 20px;
+  }
+  
+  .zhong .p3:hover {
+    background-color: antiquewhite;
+  }
+  
+  
+  
+  .top-r {
+    width: 206px;
+    height: 63px;
+    display: flex;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 58px;
+    width:100px;
+    height: 50px;
+    display: flex;
+    margin-right: 60px;
+    justify-content: space-between;
+  }
+  .top-r-img {
+    margin-top: 5px;
+  }
+   .top-r-img input {
+    border-radius: 48px;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+   }
+   .top-serach {
+    margin-top: 10px;
+   }
+   .top-serach img {
+    margin-top: -10px;
+    margin-right: 50px;
+    width: 30px;
+    height: 30px;
+   }
+   .top-search-txt {
+    margin-top: -30px;
+    margin-left: 20px;
+   }
+   .top-r-img img {
+    margin-top: -30px;
+    display: block;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 48px;
+   }
+   .top-r-img input:hover   {
+    color: white;
+    background-color: black;
+   }
+  .top-serach input {
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .top-serach input:hover {
+    color: white;
+    background-color:black;
+  }
+  .bottom-xia {
+    width: 1280px;
+    height: 65px;
+  }
+  @media screen and (max-width:1280px){
+    .bottom-xia {
+      width: 100%;
+    }
+  }
+  .movies {
+    width: 1216px;
+    height: 32px;
+    font-size: 30px;
+    margin: auto;
+    margin-left: 200px;
+  }
+  .Movies-see {
+    width: 1232px;
+    height: 53.33px;
+    margin: 10px auto;
+  }
+  .Movies-see ul {
+    display: flex;
+    height: 38px;
+    width: 100%;
+    /* overflow: hidden; */
+    margin: 30px -40px;
+  }
+
+  .Movies-see ul li{
+   list-style: none;
+   border-radius: 48px;
+   background-color: #64748b1a;
+   flex-shrink: 0;
+   margin-left: 13px;
+  }
+  .Movies-see ul li:hover {
+    background-color: black;
+    color: white;
+  }
+  .Movies-see ul li a {
+    padding: 0px 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 38px;
+  }
+  .bottom-input input {
+    width: 128px;
+    height: 48px;
+    border-radius:48px ;
+    font-size: 20px;
+     margin-left: 780px;
+    margin-top: 30px;
+  }
+  .bottom-input input:hover {
+    background-color: black;
+    color: white;
+  }
+  .zhong .top-r input {
+    width: 30px;
+    height: 30px;
+  }
+  .zhong-picture .alt {
+    position: relative;
+  }
+  .zhong-picture .alt .alt-say {
+    width: 278px;
+    height: 320px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  .zhong-picture .alt-say p {
+    color: white;
+    display: none;
+  }
+  .zhong-picture .alt :hover p {
+    color: white;
+    font-size: 30px;
+    display: block;
+  }
+  .zhong-picture .alt .alt-say p {
+    position: absolute;
+    top: 140px;
+    left:160px;
+  }
+  .de {
+    position: relative;
+  }
+  .de-wenzi {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color:white;
+    font-size: 20px;
+    display: none;
+  }
+  .de:hover .de-wenzi{
+    display: block;
+    color: white;
+    font-size: 20px;
+    transition: all 12s;
+    background-color:#000079;
+  }
+  .de:hover, .de-wenzi:hover {
+    border: 3px solid black;
+  }
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%px;
+    overflow: hidden;
+  }
+  .image-container img {
+    width: 278px;
+    height: 320px;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* 图片过渡效果 */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 278px;
+    height: 320px;
+    background: rgba(0, 0, 0, 0.5); /* 黑色半透明蒙版 */
+    opacity: 0; /* 初始时蒙版不可见 */
+    transition: opacity 0.3s ease; /* 蒙版渐显过渡效果 */
+  }
+  .text-overlay {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0; /* 初始时文字隐藏 */
+    visibility: hidden; /* 文字不可见 */
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* 文字渐现过渡 */
+    width: 278px;
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1; /* 鼠标悬停时，蒙版显示 */
+  }
+  
+  .image-container:hover .text-overlay {
+    opacity: 1; /* 鼠标悬停时文字显示 */
+    visibility: visible; /* 文字可见 */
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.05); /* 鼠标悬停时图片略微放大 */
+  }
+ button{
+  width: 100px;
+  height:50px;
+  border-radius: 48px;
+}
+.button-input {
+  margin-top: 10px;
+}
