@@ -1,0 +1,142 @@
+{
+  "id": "4751141",
+  "name": "catflixSu",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "36100259",
+      "name": "右",
+      "font_class": "you",
+      "unicode": "e72e",
+      "unicode_decimal": 59182
+    },
+    {
+      "icon_id": "36100277",
+      "name": "左",
+      "font_class": "zuo",
+      "unicode": "e72f",
+      "unicode_decimal": 59183
+    },
+    {
+      "icon_id": "10432",
+      "name": "4",
+      "font_class": "4",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3876345",
+      "name": "hulu",
+      "font_class": "hulu",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "9448679",
+      "name": "ABC",
+      "font_class": "ABC",
+      "unicode": "e6cb",
+      "unicode_decimal": 59083
+    },
+    {
+      "icon_id": "9940969",
+      "name": "fox-3",
+      "font_class": "fox-",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "9941015",
+      "name": "hbo-1",
+      "font_class": "hbo-",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "9941189",
+      "name": "nbc",
+      "font_class": "nbc",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "11326620",
+      "name": "FX",
+      "font_class": "FX",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "16681080",
+      "name": "netflix",
+      "font_class": "netflix",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "19116818",
+      "name": "primevideo",
+      "font_class": "primevideo",
+      "unicode": "e7d7",
+      "unicode_decimal": 59351
+    },
+    {
+      "icon_id": "24346667",
+      "name": "cbs",
+      "font_class": "cbs",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "35553402",
+      "name": "apple-tv",
+      "font_class": "apple-tv",
+      "unicode": "e912",
+      "unicode_decimal": 59666
+    },
+    {
+      "icon_id": "880336",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "4766293",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e7ae",
+      "unicode_decimal": 59310
+    },
+    {
+      "icon_id": "10496934",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "18353978",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "18978050",
+      "name": "tv",
+      "font_class": "tv",
+      "unicode": "e74e",
+      "unicode_decimal": 59214
+    },
+    {
+      "icon_id": "42212052",
+      "name": "movies",
+      "font_class": "movies",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    }
+  ]
+}
