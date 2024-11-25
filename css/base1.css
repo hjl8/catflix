@@ -23,14 +23,13 @@ input {
 
 i {
     display: inline-block;
-    /* width: 20px;
-    height: 20px; */
     vertical-align: middle;
     font-size: 20px !important;
     text-align: center;
 }
 
 .w {
+	width: 1280px;
     margin: 0 auto;
 }
 
@@ -39,10 +38,13 @@ a {
     display: block;
 }
 
-ul li {
-    list-style: none;
+@media screen and (min-width: 1024px) and (max-width:1280px) {
+    .w {
+        width: 1024px;
+    }
 }
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
     .w {
         width: 768px;
     }
