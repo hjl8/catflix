@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="./css/base1.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <script src="./js/home.js"></script>
+</head>
+<body>
+<!-- 顶部编写开始 -->
+    <div class="head w">
+        <div class="head-back">
+            <div class="head-top">
+                <div class="head-left"><a href="#"><img src="./images/catflix.svg" alt="logo"></a></div>
+                <div class="head-center">
+                    <a href="#">
+                        <i class="iconfont icon-fangchan-fangzi"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="./movies.html">
+                        <i class="iconfont icon-jiaopian"></i>
+                        <span>Movies</span>
+                    </a>
+                    <a href="./series.html">
+                        <i class="iconfont icon-dianshi-L"></i>
+                        <span>Series</span>
+                    </a>
+                </div>
+                <div class="head-right">
+                    <a href="#">
+                        <i class="iconfont icon-fangdajing"></i>
+                        <span>Search</span>
+                    </a>
+                    <a href="#">
+                        <i class="iconfont icon-yonghu"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="head-content">
+                <div class="content-head">
+                    <h2>Nobody Wants This</h2>
+                    <div class="content-text">
+                        <span>TMDB</span><span>7.7</span><span>2024</span><span>•</span><span>2 Seasons</span>
+                    </div>
+                </div>
+                <div class="content-btn">
+                    <a href="#"><i class="iconfont icon-sanjiao-jinru"></i><span>Watch now</span></a>
+                    <a href="#">Trailer</a>
+                    <a href="#"><i class="iconfont icon-jiahao"></i></a>
+                </div>
+                <div class="content-bot">
+                    An agnostic sex podcaster and a newly single rabbi fall in love, but can their relationship survive their wildly different […]			
+                </div>
+            </div>
+            <div class="head-bot">
+                <a href="#"><div></div></a>
+                <a href="#"><div></div></a>
+                <a href="#"><div></div></a>
+                <a href="#"><div></div></a>
+                <a href="#"><div></div></a>
+                <a href="#"><div></div></a>
+            </div>
+        </div>
+    </div>
+<!-- 顶部编写结束 -->
+<!-- networks编写开始 -->
+    <div class="nav-networks w">
+        <div class="networks-top">
+            <span> Networks</span>
+            <a href="#"><span>View more</span>></a>
+        </div>
+        <div class="networks-bot">
+            <button class="bot-btn" onclick="moveBox('left')"><</button>
+            <button class="bot-btn" onclick="moveBox('right')">></button>
+            <div class="networks-bot-content">
+                <ul id="box">
+                    <li><a href="#"><span>Rai 1</span></a></li>
+                    <li><a href="#"><span>Yle Areena</span></a></li>
+                    <li><a href="#"><span>Crunchyroll</span></a></li>
+                    <li><a href="#"><span>TBS</span></a></li>
+                    <li><a href="#"><span>La Une</span></a></li>
+                    <li><a href="#"><span>BBC Three</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!-- networks编写结束 -->
+ <!-- Latest episodes编写开始 -->
+ <div class="nav-Latest w">
+    <div class="Latest-top">
+        <span> Latest episodes</span>
+        <a href="#"><span>View more</span>></a>
+    </div>
+    <div class="Latest-bot">
+        <button class="bot-btn" onclick="moveBox('left')"><</button>
+        <button class="bot-btn" onclick="moveBox('right')">></button>
+        <div class="Latest-bot-content">
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Latest episodes编写结束 -->
+ <!-- Popular Series编写开始 -->
+ <div class="nav-hot w">
+    <div class="hot-top">
+        <span>Popular Series</span>
+        <a href="#"><span>View more</span>></a>
+    </div>
+    <div class="hot-bot">
+        <button class="bot-btn" onclick="moveBox('left')"><</button>
+        <button class="bot-btn" onclick="moveBox('right')">></button>
+        <div class="hot-bot-content">
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Popular Series编写结束 -->
+ <!-- Popular Movies编写开始 -->
+ <div class="nav-Movies w">
+    <div class="Movies-top">
+        <span>Popular Movies</span>
+        <a href="#"><span>View more</span>></a>
+    </div>
+    <div class="Movies-bot">
+        <button class="bot-btn" onclick="moveBox('left')"><</button>
+        <button class="bot-btn" onclick="moveBox('right')">></button>
+        <div class="Movies-bot-content">
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Popular Movies编写结束 -->
+<div class="footer w">
+    <div class="footer-top">
+        <img src="./images/catflix.svg" alt="logo">
+    </div>
+    <div class="footer-center">
+        <a href="#">Home</a>
+        <a href="#">Movies</a>
+        <a href="#">Series</a>
+        <a href="#">Search</a>
+    </div>
+    <div class="footer-bot">
+        <a href="#">© Distv+2023</a>
+        <a href="#">Home</a>
+        <a href="#">Movies</a>
+        <a href="#">Series</a>
+        <a href="#">search</a>
+    </div>
+</div>
+<div class="bot w">
+    <a href="#">
+        <i class="iconfont icon-fangchan-fangzi"></i>
+        <span>Home</span>
+    </a>
+    <a href="#">
+        <i class="iconfont icon-jiaopian"></i>
+        <span>Movies</span>
+    </a>
+    <a href="#">
+        <i class="iconfont icon-dianshi-L"></i>
+        <span>Series</span>
+    </a>
+    <a href="#">
+        <i class="iconfont icon-fangdajing"></i>
+        <span>Search</span>
+    </a>
+</div>
+</body>
+</html>

@@ -34,6 +34,14 @@ i {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+    display: block;
+}
+
+ul li {
+    list-style: none;
+}
 @media screen and (min-width: 768px) {
     .w {
         width: 768px;
