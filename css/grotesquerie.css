@@ -1,0 +1,397 @@
+.top {
+	width: 100%;
+	height: 500px;
+	border-radius: 0 0 50px 50px;
+	background: radial-gradient(ellipse at center, #650098, #000);
+	;
+}
+
+.top .header .menu a {
+	color: #fff;
+}
+
+.top .header .menu a:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 1px solid #ccc;
+}
+
+.top .header .search {
+	color: #fff;
+	background-color: transparent;
+}
+
+.top .header .search:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.top .header .user {
+	border: 1px solid #fff;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #fff;
+}
+
+.top .header .user:hover {
+	background-color: #fff;
+}
+
+.top .header .user:hover i {
+	color: #000;
+}
+
+.top .main {
+	margin-top: 80px;
+	color: #fff;
+}
+
+.top .main>div h2 {
+	margin-bottom: 10px;
+}
+
+.top .main>div span {
+	color: aqua;
+}
+
+.top .main .btn {
+	margin: 20px 0;
+}
+
+.top .main .btn button {
+	padding: 0 10px;
+	vertical-align: middle;
+	border: 1px solid #eee;
+	background-color: transparent;
+	color: #fff;
+}
+
+.top .main .btn:nth-child(2) button {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin: 0 20px;
+}
+
+.top .main .btn:nth-child(2) button:first-child {
+	width: 120px;
+	border-radius: 30px;
+}
+
+.top .main .btn:nth-child(2) .add {
+	font-size: 30px;
+}
+
+.top .main .btn button:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+.top .main p {
+	width: 60%;
+}
+
+.top .main .btn:nth-child(4) button {
+	margin: 10px 5px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.content {
+	margin-top: 50px;
+}
+
+.content .season {
+	position: relative;
+}
+
+.content .season h2 {
+	width: 165px;
+	height: 60px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.content .season h2 i {
+	color: aqua;
+}
+
+.content .season h2:focus-within {
+	border: 5px solid #ccc;
+	border-radius: 10px;
+}
+
+.content .season div {
+	display: none;
+	width: 165px;
+	height: 120px;
+	border: 1px solid #bbb;
+	border-radius: 10px;
+	background-color: #fff;
+	/* margin-left: 30px; */
+	padding: 10px;
+	box-sizing: border-box;
+	position: absolute;
+	left: 30px;
+}
+
+.content .season div  a {
+	display: block;
+	height: 50px;
+	font-weight: 700;
+	line-height: 50px;
+	color: #777;
+	padding: 0 10px;
+	border-radius: 10px;
+}
+
+.content .season div a:hover {
+	background-color: #abcdef;
+}
+
+.content .season:focus-within div {
+	display: block;
+}
+
+.content .season ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.content .season ul li {
+	width: 280px;
+	height: 233px;
+	margin-bottom: 10px;
+}
+
+.content .season ul li a {
+	display: block;
+	height: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.content .season ul li a img {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	transition: all 0.4s;
+}
+
+.content .season ul li a:hover img {
+	border: 1px solid #000;
+	padding: 3px;
+	box-sizing: border-box;
+	transform: scale(1.02);
+}
+
+.content .season ul li a strong span {
+	color: aqua;
+}
+
+.content .season ul li a p {
+	margin-top: 7px;
+	font-size: 12px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.content .cast ul {
+	display: flex;
+	margin: 20px 0;
+}
+
+.content .cast ul li {
+	width: 124px;
+	height: 151px;
+	margin-left: 20px;
+	
+}
+
+.content .cast ul li a {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 100%;
+	text-align: center;
+}
+
+.content .cast ul li a div {
+	width: 96px;
+	height: 96px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+}
+
+.content .cast ul li a img {
+	width: 96px;
+	position: absolute;
+	top: -20px;
+	left: 0;
+}
+
+.content .cast ul li a strong {
+	font-size: 13px
+}
+
+.content .cast ul li a span {
+	font-size: 12px;
+}
+
+.content div:last-child {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.content div:last-child>a {
+    display: block;
+    width: 40px;
+    height: 40px;
+	border: 3px solid #fff;
+	background-color: #abcdef;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+	top: 240px;
+	z-index: 1;
+}
+
+.content div:last-child>a:hover {
+    background-color: #000;
+	color: #fff;
+}
+
+.content div:last-child .pve {
+	display: none;
+	left: 0;
+}
+
+.content div:last-child .next {
+		right: 0;
+}
+
+.content div:last-child>ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+	margin: 20px 0;
+	transition: all 0.4s;
+}
+
+.content div:last-child>ul li {
+    /* width: 30%; */
+    width: 300px;
+    height: 440px;
+	flex-shrink: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    position: relative
+    margin-bottom: 20px;
+    transition: all 0.6s;
+	margin-right: 20px;
+}
+
+.content div:last-child>ul li>a {
+    display: block;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    background: url(https://image.tmdb.org/t/p/w300/eF3pfdinIPjXz3IXqezlGMFmkPL.jpg) no-repeat -260px 0;
+    background-size: cover;
+}
+
+.content div:last-child .describe {
+    width: calc(100% - 4px);
+    height: 65%;
+    position: absolute;
+    bottom: 2px;
+    background-color: #3f3f3f;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    display: none;
+}
+
+.content div:last-child>ul li:hover {
+    border: 1px solid #000;
+    transform: scale(1.03);
+}
+
+.content div:last-child>ul li:hover>a {
+    /* width: 100%; */
+    height: 40%;
+    background-position: 0 0;
+}
+
+.content div:last-child>ul li:hover .describe {
+    display: block;
+}
+
+.content div:last-child .describe span {
+    color: aqua;
+}
+
+.content div:last-child .describe p {
+    color: rgb(95, 130, 246);
+}
+
+.content div:last-child .describe div a {
+    display: inline-block;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 30px;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.content div:last-child .describe div a:hover {
+    background-color: #e6e6e6;
+}
+
+.content div:last-child .describe div button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    margin: 0 15px;
+}
+
+.content div:last-child .describe div button:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    .header,
+    .content {
+        width: 1024px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .header,
+    .content {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header,
+    .content {
+        width: 100%;
+    }
+}

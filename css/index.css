@@ -1,0 +1,110 @@
+/* 内容部分的样式 */
+.content>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.content .logo {
+    height: 350px;
+}
+
+.content .logo a {
+    display: block;
+    /* width: 256px; */
+}
+
+.content .logo img {
+    width: 100%;
+}
+
+.content .logo h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content .logo form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content .logo form i {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    left: 15px;
+}
+
+.content .logo form input {
+    width: 130px;
+    height: 48px;
+    display: block;
+    border-radius: 30px;
+}
+
+.content .logo form input[type=text] {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-left: 45px;
+    box-sizing: border-box;
+}
+
+.content .logo form input[type=text]:focus {
+    box-shadow: 5px 5px 10px #ccc;
+}
+
+.content .logo form input[type=submit] {
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold
+}
+
+.content .logo form input[type=submit]:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.content div:last-child {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.content div:last-child h2 {
+    margin-bottom: 30px;
+}
+
+.content div:last-child p {
+    color: #e5e7eb;
+}
+
+.content div:last-child>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 68px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 10px;
+    background-color: rgba(112, 112, 112, 0.1);
+    transition: all 0.4s;
+}
+
+.content div:last-child>div h3 {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content div:last-child>div i {
+    transition: all 0.4s;
+}
