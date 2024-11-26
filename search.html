@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/enroll.css">
+    <script src="./js/enroll.js"></script>
 </head>
 <body>
     <div class="top">
@@ -13,14 +16,14 @@
             <img src="./images/catflix.svg" alt="">
         </a>
         <div class="Navigetion">
-            <a href="#"><span class="iconfont" class="Home">&#xe84f;Home</span></a>
-            <a href="#"><span class="iconfont">&#xe82f;Movies</span></a>
-            <a href="#"><span class="iconfont">&#xe851;Series</span></a>
+            <a href="#"><span class="Home"><img src="./images/13.svg" alt="" class="icon"><div>Home</div></span></a>
+            <a href="#"><span><img src="./images/14.svg" alt="" class="icon"><div>Movies</div></span></a>
+            <a href="#"><span><img src="./images/15.svg" alt="" class="icon"><div>Series</div></span></a>
         </div>
         <div class="search-i">
            <form action="">
-                <input type="text" placeholder="&#xe840; search" class="sr iconfont">
-                 <a href="#"><input type="button" value="&#xe828;" class="gr iconfont"></a>
+                <span class="sr iconfont"><img src="./images/16.svg" alt="" class="icon"></span>
+                 <a href="#" onclick="ma()"><img src="./images/17.svg" alt="" class="icon"></a>
             </form>
         </div>
     </div>
@@ -33,6 +36,69 @@
         <div><img src="./images/catflix.svg" alt=""></div>
         <div class="bottomText1"><span>Home</span><span>Movies</span><span>Series</span><span>Search</span></div>
         <div class="bottomText2"><span>@Distv+2023</span><span>Home</span><span>Movies</span><span>Series</span><span>Search</span></div>
+    </div>
+    <div id="logIn-background" onclick="mb()"></div>
+    <div id="logIn">
+        <div class="return">
+            <div><input type="button" value="+" onclick="mb()"></div>
+        </div>
+        <img src="./images/catflix.svg" alt="" class="logo">
+        <p class="text">Wslcome Black</p>
+        <div class="email">
+            <input type="email"><span>Email</span>
+        </div>
+        <div class="password">
+            <input type="password"><span>Password</span>
+        </div>
+        <div class="remember">
+            <input type="checkbox">
+            <span class="left">remember me</span><a href="#">
+            <span class="right" onclick="mc()">Password</span></a>
+        </div>
+        <input type="button" value="Sign In" class="Sign">
+        <p class="up">
+            Don't have account?
+            <a href="#"><span onclick="me()">Sign Up</span></a>
+        </p>
+    </div>
+    <div id="logUp">
+        <div class="return">
+            <p class="res">Reset password</p><div><input type="button" value="+" onclick="od()"></div>
+        </div>
+        <div class="email2">
+            <input type="email"><span>Email</span>
+        </div>
+        <input type="button" value="Sign In" class="Sign2">
+        <p class="up2">
+            Back to
+            <a href="#"><span onclick="md()">Sign in</span></a>
+        </p>
+    </div>
+    <div id="logIn3">
+        <div class="return">
+            <div><input type="button" value="+" onclick="mk()"></div>
+        </div>
+        <img src="./images/catflix.svg" alt="" class="logo">
+        <p class="text">Create new account</p>
+        <div class="email">
+            <input type="text"><span>Username</span>
+        </div>
+        <div class="email">
+            <input type="email"><span>Email</span>
+        </div>
+        <div class="password">
+            <input type="password"><span>Password</span>
+        </div>
+        <div class="remember">
+            <input type="checkbox">
+            <span class="left">remember me</span><a href="#">
+            <span class="right" onclick="mg()">Password</span></a>
+        </div>
+        <input type="button" value="Sign In" class="Sign">
+        <p class="up">
+            Already a member?
+            <a href="#"><span onclick="mf()">Sign In</span></a>
+        </p>
     </div>
 </body>
 </html>

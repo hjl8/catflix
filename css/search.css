@@ -3,6 +3,8 @@
     margin: 0 auto;
 }
 
+
+
 .top {
     width: 1216px;
     height: 144px;
@@ -15,6 +17,14 @@
 .top img {
     width: 120px;
     height: 58px;
+    
+}
+
+.top .icon {
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin-top: 10px;
 }
 
 .top .Navigetion {
@@ -31,12 +41,16 @@
 
 .top .Navigetion span {
     display: block;
-    width: 100px;
+    width: 120px;
     height: 45px;
     border: #333 0px  solid;
     margin-top: 5px;
     border-radius: 40px;
     line-height: 45px;
+}
+
+.top .Navigetion span div {
+    margin-top: -35px;
 }
 
 .top .Navigetion span:hover {

@@ -3,6 +3,8 @@
     width: 100%;
     height: 1000px;
     visibility: hidden;
+    position: absolute;
+    top: 0;
 }
 
 #logIn {
@@ -20,11 +22,35 @@
     align-items: center;
     border-radius: 30px;
     visibility: hidden;
+    transition: all 0.1s;
+    transform: translateY(100px);
 }
 
 .return {
     width: 416px;
     height: 32px;
+    position: relative;
+}
+
+.return div {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    border: #64748B 1px solid;
+}
+
+.return div input {
+    right: 0;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 32px;
+    border: 0;
+    background-color: #fff;
+    transform: rotate(45deg);
 }
 
 .logo {
@@ -48,7 +74,7 @@
 
 .email input,
 .password input {
-    width: 365px;
+    width: 382px;
     height: 22px;
     padding: 24px 16px 8px 16px;
     border: #64748B 1px solid;
@@ -62,6 +88,9 @@
     line-height: 56px;
     left: 25px;
     color: #64748B;
+    background: var(--bg);
+    background-clip: text;
+    color: transparent;
 }
 
 .remember {
@@ -76,14 +105,16 @@
     border: #64748B;
 }
 
-.remember span {
+.remember .left {
     position: absolute;
     left: 30px;
-    
 }
 
 .remember a {
-    position: absolute;
+    float: right;
+}
+
+.remember a .right {
     color: #0891B2;
     font-weight: bold;
     right: 76px;
@@ -98,6 +129,14 @@
     font-size: 16px;
 }
 
+.Sign2 {
+    width: 416px;
+    height: 48px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+}
+
 .up {
     width: 416px;
     height: 48px;
@@ -105,7 +144,110 @@
     color: #64748B;
 }
 
-.up span {
+.up a {
+    display: inline;
+}
+
+.up a span {
     color: #0891B2;
     font-weight: bold;
+}
+
+#logUp {
+    width: 512px;
+    height: 328px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -256px 0 0 -294px;
+    background-color: #fff;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    visibility: hidden;
+    transition: all 0.1s;
+    transform: translateY(100px);
+}
+
+#logUp .text {
+    width: 416px;
+    height: 32px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.email2 {
+    width: 416px;
+    height: 56px;
+    position: relative;
+}
+
+.email2 input {
+    width: 382px;
+    height: 22px;
+    padding: 24px 16px 8px 16px;
+    border: #64748B 1px solid;
+    border-radius: 10px;
+}
+
+.email2 span {
+    position: absolute;
+    z-index: 2;
+    line-height: 56px;
+    left: 25px;
+    color: #64748B;
+    background: var(--bg);
+    background-clip: text;
+    color: transparent;
+}
+
+.up2 {
+    width: 416px;
+    height: 48px;
+    text-align: center;
+    color: #64748B;
+}
+
+.up2 a {
+    display: inline;
+}
+
+.up2 a span {
+    color: #0891B2;
+    font-weight: bold;
+}
+
+.res {
+   position: absolute;
+   left: 0;
+   font-size: 20px;
+}
+
+#logIn3 {
+    width: 512px;
+    height: 547px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -256px 0 0 -294px;
+    background-color: #fff;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    visibility: hidden;
+    transition: all 0.1s;
+    transform: translateY(100px);
+}
+
+#logIn3 .text {
+    width: 416px;
+    height: 32px;
+    font-size: 22px;
+    text-align: center;
 }
