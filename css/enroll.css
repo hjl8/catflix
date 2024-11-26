@@ -1,0 +1,253 @@
+#logIn-background {
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 1000px;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+}
+
+#logIn {
+    width: 512px;
+    height: 588px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -256px 0 0 -294px;
+    background-color: #fff;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    visibility: hidden;
+    transition: all 0.1s;
+    transform: translateY(100px);
+}
+
+.return {
+    width: 416px;
+    height: 32px;
+    position: relative;
+}
+
+.return div {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    border: #64748B 1px solid;
+}
+
+.return div input {
+    right: 0;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 32px;
+    border: 0;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+.logo {
+    width: 120px;
+    height: 28px;
+}
+
+#logIn .text {
+    width: 416px;
+    height: 32px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.email,
+.password {
+    width: 416px;
+    height: 56px;
+    position: relative;
+}
+
+.email input,
+.password input {
+    width: 382px;
+    height: 22px;
+    padding: 24px 16px 8px 16px;
+    border: #64748B 1px solid;
+    border-radius: 10px;
+}
+
+.email span,
+.password span {
+    position: absolute;
+    z-index: 2;
+    line-height: 56px;
+    left: 25px;
+    color: #64748B;
+    background: var(--bg);
+    background-clip: text;
+    color: transparent;
+}
+
+.remember {
+    width: 416px;
+    height: 48px;
+    position: relative;
+    color: #64748B;
+}
+.remember input {
+    width: 24px;
+    height: 24px;
+    border: #64748B;
+}
+
+.remember .left {
+    position: absolute;
+    left: 30px;
+}
+
+.remember a {
+    float: right;
+}
+
+.remember a .right {
+    color: #0891B2;
+    font-weight: bold;
+    right: 76px;
+    top: 0;
+}
+
+.Sign {
+    width: 416px;
+    height: 48px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+}
+
+.Sign2 {
+    width: 416px;
+    height: 48px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+}
+
+.up {
+    width: 416px;
+    height: 48px;
+    text-align: center;
+    color: #64748B;
+}
+
+.up a {
+    display: inline;
+}
+
+.up a span {
+    color: #0891B2;
+    font-weight: bold;
+}
+
+#logUp {
+    width: 512px;
+    height: 328px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -256px 0 0 -294px;
+    background-color: #fff;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    visibility: hidden;
+    transition: all 0.1s;
+    transform: translateY(100px);
+}
+
+#logUp .text {
+    width: 416px;
+    height: 32px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.email2 {
+    width: 416px;
+    height: 56px;
+    position: relative;
+}
+
+.email2 input {
+    width: 382px;
+    height: 22px;
+    padding: 24px 16px 8px 16px;
+    border: #64748B 1px solid;
+    border-radius: 10px;
+}
+
+.email2 span {
+    position: absolute;
+    z-index: 2;
+    line-height: 56px;
+    left: 25px;
+    color: #64748B;
+    background: var(--bg);
+    background-clip: text;
+    color: transparent;
+}
+
+.up2 {
+    width: 416px;
+    height: 48px;
+    text-align: center;
+    color: #64748B;
+}
+
+.up2 a {
+    display: inline;
+}
+
+.up2 a span {
+    color: #0891B2;
+    font-weight: bold;
+}
+
+.res {
+   position: absolute;
+   left: 0;
+   font-size: 20px;
+}
+
+#logIn3 {
+    width: 512px;
+    height: 547px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -256px 0 0 -294px;
+    background-color: #fff;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    visibility: hidden;
+    transition: all 0.1s;
+    transform: translateY(100px);
+}
+
+#logIn3 .text {
+    width: 416px;
+    height: 32px;
+    font-size: 22px;
+    text-align: center;
+}
